@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dofus-frontend';
+
+  showMenu=false;
+
+  activeMenu(){
+    this.showMenu = !this.activeMenu
+  }
 }
+

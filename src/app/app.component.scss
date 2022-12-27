@@ -1,0 +1,85 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+//--------------------------------------nav--------------------------------------
+i{
+  font-size:30px;
+  color: #FFFFFF;
+}
+
+.menu-logo{
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  position: relative;
+  right: 50%;
+  top: 10px;
+}
+
+nav{
+  background-color: #000000;
+  height: 39px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-login{
+  width: 39px;
+}
+
+//------------------------------------------container1----------------------------------------
+.container-1{
+  background-color: #000000;
+  position: relative;
+  max-width: 760px;
+
+}
+
+.button{
+  margin-top: 40px;
+  text-align: center;
+}
+button{
+  width: 280px;
+  height: 60px;
+  background-color: #d39b2e;
+  box-shadow: 0 0 0 4px #f8ce3e inset;
+  border: 1px black solid;
+  color: #f6eed6;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.text-container-1{
+  padding-top: 40px;
+  color: #FFFDD4;
+}
+
+.text-container-1::before{
+  content: url(https://i.postimg.cc/rsFSW-1V2/text-texture.png);
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.text-container-1::after{
+  content: url(https://i.postimg.cc/rsFSW-1V2/text-texture.png);
+  position: absolute;
+  transform: rotateY(180deg);
+  right: 10px;
+  top: 20px;
+}
+.menu-page{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}

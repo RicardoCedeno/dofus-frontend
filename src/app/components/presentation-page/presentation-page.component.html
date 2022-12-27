@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <title>DOFUS</title>
+</head>
+<body>
+
+  <div class="container-1" style="height: 840px;">
+    <div class="text-container-1">
+      <div style="font-size: 24px; text-align: center; font-weight: bolder;">FORJA TU DESTINO!</div>
+      <div style="text-align: center;"><img src="https://i.postimg.cc/LhdHjcw1/text-separator.png" alt=""></div>
+      <div style="font-size: 18px; text-align: center; font-weight: 600px;">Una nueva aventura está a punto de empezar...</div>
+      <div style="width: 100%;" class="button button-container-1"><button>MÁS INFORMACIÓN</button></div>
+    </div>
+    <div class="separator-1-container">
+      <img src="https://i.postimg.cc/0QrTDNfr/img1-bottom.jpg" style="width: 100%; height: 40px; margin-top: 40px;" alt="">
+    </div>
+  </div>
+
+  <div class="container-2" style="background-color: #330D1C">
+
+    <div style="color: #F6EED6; text-align: center; font-size: 38px; padding-top: 60px;">NOTICIAS</div>
+
+    <div style="color: #B7ae95; text-align: center; margin-top: 20px; font-size: 18px; font-family: 'Roboto', sans-serif;">Filtros:</div>
+    <div class="logos-container-2">
+      <div class="dofus2"><img src="https://i.postimg.cc/Y0pHy2q6/sw-itch-dofus-01.png" alt=""></div>
+      <div class="dofus1"><img src="https://i.postimg.cc/cH7WmtZ1/sw-itch-dofus-02.png" alt=""></div>
+    </div>
+    <div class="news-container" id="news-container">
+      <ul class="list-news-dofus" *ngFor="let new of news" style="list-style: none;">
+        <div class="individual-new">
+          <div class="image-container"><li><img [src]="new.imageurl" alt=""></li></div>
+          <div class="description-container" style=>
+            <li class="tag">{{new.text1}}</li>
+            <li class="description">{{new.text2}}</li>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div style="text-align: center;"><button class="button1">MOSTRAR TODO</button></div>
+
+    <div class="image2-container2"> <img src="https://i.postimg.cc/9M2qFpCy/news-dofus-2-1.jpg" alt=""></div>
+
+    <div style="text-align: center; color: #f6eed6; font-size: 60px; font-weight: 700; ">DOFUS</div>
+    <div style="text-align: center; color: #f6eed6; font-size: 18px; font-weight: 300; font-family: 'Roboto', sans-serif;">El juego en línea gratuito que <br> conjuga aventura, amistad y <br> combates tácticos</div>
+    <div style="text-align: center; padding-top: 15px; padding-bottom: 50px;"><button class="button2">JUGAR AHORA</button></div>
+
+
+  </div>
+
+
+  <div class="container-3">
+    <div style="width: fit-content; margin-left: 15.2;"><img style="max-width: 98%;" src="https://i.postimg.cc/7ZGZPfhn/img2.jpg" alt=""></div>
+    <div class="image2-container3" style="width: fit-content; margin-left: 15.2;"><img style="max-width: 98%;" src="https://i.postimg.cc/LXR9VDTx/symbole.jpg" alt=""></div>
+    <div style="text-align: center; color: #f6eed6; font-size: 48px; font-weight: 700; line-height: 100%;">Una nueva clase: los forjalanzas</div>
+    <div style="text-align: center;"><img src="https://i.postimg.cc/LhdHjcw1/text-separator.png" alt=""></div>
+    <div style="text-align: center; color: #f6eed6; font-size: 18px; font-weight: 300; font-family: 'Roboto', sans-serif; max-width: 90%; margin-left: 19px;">Armados de valentía y de su fiel lanza, unos nuevos combatientes con nervios de acero se preparan para unirse a la aventura en DOFUS. Ansían forjar su destino sin la ayuda de los dioses. Forjarse una reputación a prueba del paso del tiempo e incluso de la muerte. Los forjalanzas son esos héroes orgullosos con voluntad de hierro, que están deseando dejar su impronta indeleble en la historia. ¡Si les prometes gloria y posteridad, blandirán inmediatamente sus lanzas para luchar a tu lado!</div>
+    <div style="width: 100%;;" class="button button-container-3"><button>Leer DEVBLOG</button></div>
+    <div style="width: fit-content;"><img src="https://i.postimg.cc/C5cx58bm/img3.jpg" alt="" width="100%"></div>
+
+    <div class="text1-container3" style="top: 20px;">
+      <div style="text-align: center; color: #f6eed6; font-size: 48px; font-weight: 700; line-height: 100%;">TRES NUEVAS ISLAS</div>
+      <div style="text-align: center;"><img src="https://i.postimg.cc/LhdHjcw1/text-separator.png" alt=""></div>
+      <div style="text-align: center; color: #f6eed6; font-size: 18px; font-weight: 300; font-family: 'Roboto', sans-serif; max-width: 90%; margin-left: 19px;">Al abatirse sobre el Mundo de los Doce, la Lanza Original, esa reliquia gigantesca hoy venerada por los forjalanzas, rompe la isla de Valonia y la convierte en un archipiélago. De ahí nacen las islas de Albuera, Ereboria y Efedria, tres zonas nuevas que podrás descubrir en esta actualización. </div>
+    </div>
+
+    <div style="width: fit-content; margin-top: 50px;"><img src="https://i.postimg.cc/0yT2zPJR/img4.jpg" alt="" width="100%"></div>
+    <div class="picto picto1"><img src="https://i.postimg.cc/d1m1Mp3M/picto1.png" alt=""></div>
+
+    <div class="text1-container3">
+      <div style="text-align: center; color: #8be378; font-size: 48px; font-weight: 700; line-height: 100%;">ISLA DE EFEDRIA</div>
+      <div style="text-align: center;"><img src="https://i.postimg.cc/LhdHjcw1/text-separator.png" alt=""></div>
+      <div style="text-align: center; color: #8be378; font-size: 20px; font-weight: 700; line-height: 100%; font-family: 'Roboto', sans-serif">Los protectores de Efedria</div>
+      <div style="text-align: center; color: #f6eed6; font-size: 18px; font-weight: 300; font-family: 'Roboto', sans-serif; max-width: 90%; margin-left: 19px;">Al abatirse sobre el Mundo de los Doce, la Lanza Original, esa reliquia gigantesca hoy venerada por los forjalanzas, rompe la isla de Valonia y la convierte en un archipiélago. De ahí nacen las islas de Albuera, Ereboria y Efedria, tres zonas nuevas que podrás descubrir en esta actualización. </div>
+    </div>
+
+    <div><img src="https://i.postimg.cc/BZp6MrRH/img5.jpg" alt="" width="100%"></div>
+    <div style="width: fit-content; margin-top: 50px;"><img src="https://i.postimg.cc/0yT2zPJR/img4.jpg" alt="" width="100%"></div>
+    <div class="picto picto2"><img src="https://i.postimg.cc/JnWn2M1c/picto2.png" alt=""></div>
+    <div class="text1-container3">
+      <div style="text-align: center; color: #2fceb9; font-size: 48px; font-weight: 700; line-height: 100%;">ISLA DE ALBUERA</div>
+      <div style="text-align: center;"><img src="https://i.postimg.cc/LhdHjcw1/text-separator.png" alt=""></div>
+      <div style="text-align: center; color: #2fceb9; font-size: 20px; font-weight: 700; line-height: 100%; font-family: 'Roboto', sans-serif">Los rebeldes de la arboleda</div>
+      <div style="text-align: center; color: #f6eed6; font-size: 18px; font-weight: 300; font-family: 'Roboto', sans-serif; max-width: 90%; margin-left: 19px;">Estos animales protegen su querido bosque a base de zarpazos y mordiscos. ¿Qué es lo que les hace desconfiar? <br> Una colonia de forjalanzas que se ha instalado en la costa de la isla de Albuera y que amenaza la vegetación del bosque de alrededor...</div>
+    </div>
+
+    <div><img src="https://i.postimg.cc/wTbBdhqB/img6.jpg" width="100%" alt=""></div>
+    <div class="picto picto3"><img src="https://i.postimg.cc/tgFRPwh1/picto3.png" alt=""></div>
+    <div class="text1-container3">
+      <div style="text-align: center; color: #fffa00; font-size: 48px; font-weight: 700; line-height: 100%;">ISLA DE ERBORIA</div>
+      <div style="text-align: center;"><img src="https://i.postimg.cc/LhdHjcw1/text-separator.png" alt=""></div>
+      <div style="text-align: center; color: #fffa00; font-size: 20px; font-weight: 700; line-height: 100%; font-family: 'Roboto', sans-serif">Los Martilloseco</div>
+      <div style="text-align: center; color: #f6eed6; font-size: 18px; font-weight: 300; font-family: 'Roboto', sans-serif; max-width: 90%; margin-left: 19px;">
+        En la isla de Ereboria habita el colosal Cire Momore, pero ahí también viven unos personajes de reducido tamaño a los que les atrae, al igual que a él, lo que brilla. Ten cuidado: ¡esos taponanos agresivos y tatuados que han elegido vivir en una ciudad subterránea están dispuestos a todo para defender su territorio!  </div>
+    </div>
+    <div><img src="https://i.postimg.cc/yYNN5fz5/img7.jpg" alt="" width="100%"></div>
+
+    <div class="text2-container3" style="margin-top: 45px;">
+      <div style="text-align: center; color: #fffa8b; font-size: 48px; font-weight: 700; line-height: 100%;">LA REFORMA DE LAS ALIANZAS</div>
+      <div style="text-align: center;"><img src="https://i.postimg.cc/LhdHjcw1/text-separator.png" alt=""></div>
+      <div style="text-align: center; color: #f6eed6; font-size: 18px; font-weight: 300; font-family: 'Roboto', sans-serif; max-width: 90%; margin-left: 19px;">La tan anisadamente esperada reforma de las alianzas, un tema tentacular que requiere cierto tiempo de reflexión, llegará durante el primer trimestre de 2023. Los cambios afectan a la propia esencia de la entidad "alianza", a la influencia de los recaudadores, así como a la captura de territorios. </div>
+      <div style="width: 100%; padding-bottom: 50px;" class="button button-container-3"><button>Leer DEVBLOG</button></div>
+    </div>
+
+
+  </div >
+
+  <div class="container-4">
+    <div>TIENDA DOFUS</div>
+
+    <div class="carousel-container">
+      <app-carousel1 class="carousel1"></app-carousel1>
+    </div>
+    <div style="text-align: center; padding-bottom:50px;"><button class="button1">MOSTRAR TODO</button></div>
+
+  </div>
+
+  <div class="container-5">
+
+    <div class="lists">
+      <div class="list list-1">
+        <ul>
+          <li class="tittle">EL JUEGO DOFUS</li>
+          <li>ENCICLOPEDIA</li>
+          <li>FORO DOFUS</li>
+          <li>COMPRA DE KAMAS</li>
+        </ul>
+      </div>
+
+
+      <div class="list list-2">
+        <ul>
+          <li class="tittle">INFORMACION</li>
+          <li>SEGURIDAD</li>
+          <li>TORNEOS</li>
+          <li>CÓDIGOS DE REGALO</li>
+        </ul>
+      </div>
+
+      <div class="list list-3">
+        <ul>
+          <li class="tittle">MI CUENTA</li>
+          <li>ABONARSE</li>
+          <li>CONECTARSE</li>
+          <li>COMPRAR OGRINAS</li>
+          <li>SEGURIDAD DE LA CUENTA</li>
+        </ul>
+      </div>
+
+      <div class="list list-4">
+        <ul>
+          <li class="tittle">SOPORTE</li>
+          <li>CONTRASEÑA PERDIDA</li>
+          <li>CUENTA ROBADA</li>
+          <li>CONTACTO</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>

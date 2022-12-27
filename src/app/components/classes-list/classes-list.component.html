@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/src/app/components/classes-list/classes-list.component.scss">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="classes-container">
+    <ul class="list-classes" *ngFor="let class of classes">
+      <div class="individual-container">
+        <li class="class-text">{{class.representationClass}}</li>
+      <li><img (click)="showClassDetails(class.idClass)" [src]="class.image1Class" alt=""></li>
+
+      </div>
+    </ul>
+  </div>
+
+</body>
+</html>
